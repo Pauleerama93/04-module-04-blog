@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4, 
+h5,
+h6 {
+    font-size: 100%;
+}
+
+:root {
+    --light-theme: white;
+    --light-accent: rgba(255, 255, 255, 0.559);
+    --dark-theme: black;
+    --dark-accent: rgba(38, 36, 36, 0.179);
+    --dark-accent-action: black;
+    --action: rgb(90, 104, 157);
+    --action-accent: grey;
+    --disabled: rgb(179, 179, 179);
+    --error: red;
+    --circle-color: orange;
+
+}
+
+* {
+    transition: background-color ease-in .5s;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+header, footer {
+    padding: 2.5rem;
+}
+main {
+    height: calc(100vh - 6rem);
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-top: double 1rem;
+}
+
+.dark main {
+    background-color: var(--dark-theme);
+}
+
+.dark header, .dark footer {
+    background-color: var(--dark-theme);
+    color: var(--light-theme)
+}
+
+.dark main {
+    background-color: var(--dark-accent);
+    color: var(--light-theme);
+    border-top: solid 1rem var(--disabled);
+}
+ 
+.light header, .light footer {
+    background-color: var(--light-theme);
+    color: var(--dark-theme);
+}
+
+.toggle {
+    font-size: 1.45rem;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
