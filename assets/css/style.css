@@ -34,6 +34,7 @@ h6 {
     --error: red;
     --circle-color: orange;
 
+
 }
 
 * {
@@ -69,12 +70,12 @@ main {
 
 .dark main {
     background-color: var(--dark-accent);
-    color: var(--light-theme);
+    color: var(black);
     border-top: solid 1rem var(--disabled);
 }
  
 .light header, .light footer {
-    background-color: var(--light-theme);
+    background-color: var(--circle-color);
     color: var(--dark-theme);
 }
 
