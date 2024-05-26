@@ -6,7 +6,7 @@ const getTheme = function() {
     return theme;
 }
 
-const getBlogLocalStorage = function() {
+const readBlogDataFromLocalStorage = function() {
     const stringData = localStorage.getItem("blogs");
 
     const data = JSON.parse(stringData);

@@ -5,7 +5,7 @@ const redirectPage = function() {
 }
 
 const storeBlogDataLocalStorage = function(data) {
-    const blogs = getBlogLocalStorage();
+    const blogs = readBlogDataFromLocalStorage();
     blogs.push(data);
     // convert to string
     const stringData = JSON.stringify(blogs);
