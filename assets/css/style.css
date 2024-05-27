@@ -32,7 +32,7 @@ h6 {
     --action-accent: grey;
     --disabled: rgb(179, 179, 179);
     --error: red;
-    --circle-color: orange;
+    --circle-color: rgb(10, 69, 5);
 
 
 }
@@ -70,7 +70,7 @@ main {
 
 .dark main {
     background-color: var(--dark-accent);
-    color: var(black);
+    color: var(--dark-accent-action);
     border-top: solid 1rem var(--disabled);
 }
  

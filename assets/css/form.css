@@ -9,12 +9,12 @@ aside {
 
 aside, section {
     flex: 1 1 50%;
-    background-color: rgb(255, 253, 253);
+    background-color:var(--light-theme);
 }
 
 aside > h2 {
     font-size: 2rem;
-    color: rgb(88, 86, 86);
+    color: var(--action-accent)
 }
 
 form {
