@@ -29,10 +29,10 @@ h6 {
     --dark-accent: rgba(38, 36, 36, 0.179);
     --dark-accent-action: black;
     --action: rgb(90, 104, 157);
-    --action-accent: grey;
+    --action-accent: rgb(84, 81, 81);
     --disabled: rgb(179, 179, 179);
     --error: red;
-    --circle-color: rgb(10, 69, 5);
+    --circle-color: #ffa500;
 
 
 }
