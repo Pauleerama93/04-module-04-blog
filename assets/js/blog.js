@@ -22,12 +22,13 @@ const renderBlogList = function () {
 
         h2.textContent = blogs[index].title;
         article.appendChild(h2);
+        
+        p.textContent = `By: ${blogs[index].username}`;
+        article.appendChild(p);
 
         blockquote.textContent = blogs[index].content;
         article.appendChild(blockquote);
 
-        p.textContent = `By: ${blogs[index].username}`;
-        article.appendChild(p);
 
         article.classList.add("card");
 
